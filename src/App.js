@@ -41,7 +41,7 @@ function Tipcalculator(){
 function Billinput({bill,onsetBill}){
   return(
     <div>
-      <span>How much was the bill?</span>
+      <span>How much was the actual bill that was ate by me?</span>
     <input type="text" placeholder="bill...." value={bill} onChange={(e)=>onsetBill(Number(e.target.value))}></input>
     </div>
   )
